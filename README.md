@@ -1,17 +1,15 @@
 # file-essence
 
-## Motivation
+`file-essence` is a File Metadata Microservice built with Nodejs, Express framework and `multer`. `multer` is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
 
-### Goal
+## Goal
 
-⚙️ Installation
+## ⚙️ Installation
 
-## Other usage examples
+## Usage examples
 You can submit a form that includes a file upload.
 
 When you submit a file, you receive the file name, type, and size in bytes within the JSON response.
 
-## Closing and resources 
 ## Contact
-## Contributing
 
