@@ -2,11 +2,6 @@
 
 `file-essence` is a File Metadata Microservice built with Nodejs, Express framework and `multer`. `multer` is a node.js middleware for handling multipart/form-data, which is primarily used for uploading files.
 
-## Usage
-You can submit a form that includes a file upload.
-
-When you submit a file, you receive the file name, type, and size in bytes within the JSON response.
-
 ## ⚙️ Installation
 
 - Open CMD
@@ -19,18 +14,24 @@ When you submit a file, you receive the file name, type, and size in bytes withi
 
   `git clone git@github.com:backendkolawole/file-essence.git`
 
+- Change the current directory
+
+  `cd file-essence`
+  
 - Install packages
 
   `npm install`
 
-- Create a .env file in the root directory
+- Run the server
 
-  - Set up the `MONGO_URI` variable equal to the DB connection string
-  - Set up the `PORT` variable
+  `npm start`
+
  
 
 > [!IMPORTANT]
 > To avoid port collisions, in the source code, the port value is `3000`
 
-## Contact
+## Usage
+You can submit a form that includes a file upload.
 
+When you submit a file, you receive the file name, type, and size in bytes within the JSON response.
